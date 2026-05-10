@@ -1,7 +1,7 @@
 # Template LaTeX — Relatório de Trabalhos (ISEL)
 
 > [!NOTE]  
-> **Aviso:** Este projeto não é um modelo oficial fornecido pelo Instituto Superior de Engenharia de Lisboa (ISEL). É um projeto desenvolvido de forma independente por alunos, com o intuito de facilitar a escrita de relatórios em LaTeX.
+> **Aviso:** Este projeto não é um modelo oficial fornecido pelo Instituto Superior de Engenharia de Lisboa (ISEL). É um projeto desenvolvido de forma independente, com o intuito de facilitar a escrita de relatórios em LaTeX.
 
 Viva! Neste repositório encontras um template genérico em LaTeX para relatórios de trabalhos feitos no ISEL, compatível com qualquer cadeira.
 Este template pode ser alterado para qualquer circustância necessária, e pode sofrer alterações.
