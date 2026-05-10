@@ -47,7 +47,7 @@ template-latex-isel
  ┣ README.md                  ← este ficheiro
  ┗ images/
     ┣ logo-isel.png           ← logo do ISEL (Aconselhado a não substituir)
-	┣ newsmallogo.png           ← logo mini do ISEL (Aconselhado a não substituir)     
+	┣ newsmallogo.png         ← logo mini do ISEL (Aconselhado a não substituir)     
     ┗ sampleimage.jpg         ← imagem de exemplo (substitui pelas tuas)
 ```
 
