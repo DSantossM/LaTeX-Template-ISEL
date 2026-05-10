@@ -1,11 +1,11 @@
-# 📄 Template LaTeX — Relatório Académico (ISEL)
+# Template LaTeX — Relatório Académico (ISEL)
 
 Template genérico em LaTeX para relatórios académicos do ISEL, compatível com qualquer cadeira.  
 Basta preencher as variáveis no topo do ficheiro e substituir o conteúdo placeholder pelo teu.
 
 ---
 
-## 🚀 Começar Rapidamente
+## Começar Rapidamente
 
 ### 1. Abre no Overleaf (recomendado)
 
@@ -33,21 +33,21 @@ No topo do ficheiro `.tex` encontras o bloco de variáveis — é o único síti
 
 ---
 
-## 📁 Estrutura do Repositório
+## Estrutura do Repositório
 
 ```
 📦 template-latex-isel
- ┣ 📄 template_relatorio.tex     ← ficheiro principal do template
- ┣ 📄 guia_recursos_latex.tex    ← guia de recursos em LaTeX (opcional)
- ┣ 📄 README.md                  ← este ficheiro
- ┗ 📁 images/
-    ┣ 🖼️ logo-isel.png           ← logo do ISEL (substitui se necessário)
-    ┗ 🖼️ sampleimage.jpg         ← imagem de exemplo (substitui pelas tuas)
+ ┣ template_relatorio.tex     ← ficheiro principal do template
+ ┣ guia_recursos_latex.tex    ← guia de recursos em LaTeX (opcional)
+ ┣ README.md                  ← este ficheiro
+ ┗ images/
+    ┣ logo-isel.png           ← logo do ISEL (substitui se necessário)
+    ┗ sampleimage.jpg         ← imagem de exemplo (substitui pelas tuas)
 ```
 
 ---
 
-## 📐 Estrutura do Template
+## Estrutura do Template
 
 | Bloco | Descrição |
 |-------|-----------|
@@ -62,7 +62,7 @@ No topo do ficheiro `.tex` encontras o bloco de variáveis — é o único síti
 
 ---
 
-## ✂️ Snippets Úteis
+## Snippets Úteis
 
 ### Figura
 ```latex
@@ -131,7 +131,7 @@ Ver Equação~\eqref{eq:nome}
 
 ---
 
-## 🌐 Recursos para Aprender LaTeX
+## Recursos para Aprender LaTeX
 
 ### Editores Online
 | Recurso | Descrição |
@@ -182,7 +182,7 @@ Ver Equação~\eqref{eq:nome}
 
 ---
 
-## ❓ Dúvidas
+## Dúvidas
 
 Pesquisa primeiro em [tex.stackexchange.com](https://tex.stackexchange.com) — é muito provável que a tua pergunta já tenha resposta.
 
