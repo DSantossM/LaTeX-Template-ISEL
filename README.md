@@ -1,7 +1,8 @@
 # Template LaTeX — Relatório Académico (ISEL)
 
-Template genérico em LaTeX para relatórios académicos do ISEL, compatível com qualquer cadeira.  
-Basta preencher as variáveis no topo do ficheiro e substituir o conteúdo placeholder pelo teu.
+Viva! Neste repositório encontras um template genérico em LaTeX para relatórios de trabalhos feitos no ISEL, compatível com qualquer cadeira.
+<!-- Basta preencher as variáveis no topo do ficheiro e substituir o conteúdo placeholder pelo teu -->
+Para começares a fazer relatórios encontras as instruções e guias em baixo para conseguires trabalhar com a ferramenta LaTeX.
 
 ---
 
