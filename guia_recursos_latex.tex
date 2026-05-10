@@ -1,0 +1,362 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%  GUIA DE RECURSOS — LATEX PARA RELATÓRIOS (ISEL)
+%  =================================================
+%  Versão  : 1.0
+%
+%  INSTRUÇÕES RÁPIDAS
+%  ------------------
+%  1. Compila este ficheiro diretamente no Overleaf com pdfLaTeX.
+%  2. Partilha o PDF gerado com quem precisar de ajuda em LaTeX.
+%  3. Todos os links no PDF são clicáveis.
+%
+%  ESTRUTURA DO FICHEIRO
+%  ---------------------
+%  [0] Dados do documento
+%  [A] Pacotes e configurações globais
+%  [B] Estilos das caixas de recursos
+%  [C] Corpo do guia
+%      1. Editores Online
+%      2. Documentação e Referência
+%      3. Comunidade e Ajuda
+%      4. Templates e Código no GitHub
+%      5. Ferramentas Úteis
+%      6. Referência Rápida de Comandos
+%
+%  RECURSOS INCLUÍDOS
+%  ------------------
+%  → Overleaf (editor online)
+%  → Overleaf Learn (tutoriais)
+%  → LaTeX Wikibook
+%  → CTAN (pacotes)
+%  → Detexify (símbolos)
+%  → TeX Stack Exchange (fórum)
+%  → GitHub (templates)
+%  → Tables Generator
+%  → Mathcha (equações)
+%  → doi2bib (referências)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+% ===================================================================
+% [A]  PACOTES E CONFIGURAÇÕES GLOBAIS
+% ===================================================================
+\documentclass[12pt]{article}
+
+% --- Idioma e codificação ---
+\usepackage[portuguese]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+% --- Página ---
+\usepackage{geometry}
+\geometry{
+    a4paper,
+    top=25mm,
+    bottom=25mm,
+    left=25mm,
+    right=25mm
+}
+
+% --- Tipografia ---
+\usepackage{setspace}
+\onehalfspacing
+\usepackage{microtype}
+
+% --- Cores ---
+\usepackage{xcolor}
+\definecolor{linkblue}{HTML}{2563EB}
+\definecolor{boxbg}{HTML}{F3F4F6}
+\definecolor{boxborder}{HTML}{D1D5DB}
+\definecolor{titlebg}{HTML}{1E3A5F}
+
+% --- Hiperligações ---
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks = true,
+    urlcolor   = linkblue,
+    linkcolor  = black,
+    citecolor  = black
+}
+
+% --- Tabelas ---
+\usepackage{booktabs}
+\usepackage{array}
+
+% --- Caixas ---
+\usepackage{mdframed}
+
+% --- Numeração de secções com ponto ---
+\usepackage{titlesec}
+\titlelabel{\thetitle.\quad}
+
+
+% ===================================================================
+% [B]  ESTILOS DAS CAIXAS DE RECURSOS
+% ===================================================================
+
+% Caixa cinzenta para cada recurso
+\mdfdefinestyle{resourcebox}{
+    backgroundcolor  = boxbg,
+    linecolor        = boxborder,
+    linewidth        = 1pt,
+    roundcorner      = 6pt,
+    innertopmargin   = 10pt,
+    innerbottommargin= 10pt,
+    innerleftmargin  = 12pt,
+    innerrightmargin = 12pt,
+    skipabove        = 6pt,
+    skipbelow        = 6pt
+}
+
+% Caixa azul escuro para o cabeçalho da página
+\mdfdefinestyle{headerbox}{
+    backgroundcolor  = titlebg,
+    linewidth        = 0pt,
+    roundcorner      = 8pt,
+    innertopmargin   = 16pt,
+    innerbottommargin= 16pt,
+    innerleftmargin  = 20pt,
+    innerrightmargin = 20pt,
+    skipabove        = 0pt,
+    skipbelow        = 16pt
+}
+
+% Comando auxiliar: \recurso{Título}{URL}{Descrição}
+\newcommand{\recurso}[3]{%
+    \begin{mdframed}[style=resourcebox]
+        \textbf{#1}\\[3pt]
+        \href{#2}{\textcolor{linkblue}{\small\texttt{#2}}}\\[5pt]
+        \small #3
+    \end{mdframed}
+}
+
+
+% ===================================================================
+% [C]  INÍCIO DO DOCUMENTO
+% ===================================================================
+\begin{document}
+\thispagestyle{empty}
+
+% --- Cabeçalho da página ---
+\begin{mdframed}[style=headerbox]
+    \color{white}
+    {\LARGE \textbf{Recursos para Relatórios em \LaTeX}}\\[4pt]
+    {\normalsize Guia de referência rápida — partilha com quem precisar de ajuda}
+\end{mdframed}
+
+
+% -------------------------------------------------------------------
+\section{Editores Online — começa aqui}
+% -------------------------------------------------------------------
+
+Não precisas de instalar nada. Usa um editor online para começar de imediato.
+
+\recurso{Overleaf — Editor LaTeX Online (recomendado)}
+    {https://www.overleaf.com}
+    {O editor mais popular para LaTeX. Compila diretamente no browser,
+     tem colaboração em tempo real e milhares de templates prontos a usar.
+     Cria uma conta gratuita e abre o template deste relatório.}
+
+\recurso{Overleaf — Galeria de Templates}
+    {https://www.overleaf.com/latex/templates}
+    {Centenas de templates prontos: relatórios, teses, apresentações,
+     artigos científicos, CVs, posters, e muito mais.}
+
+
+% -------------------------------------------------------------------
+\section{Documentação e Referência}
+% -------------------------------------------------------------------
+
+\recurso{Overleaf Learn — Guias e Tutoriais (recomendado para iniciantes)}
+    {https://www.overleaf.com/learn}
+    {A melhor documentação para quem está a aprender. Cobre desde o básico
+     (parágrafos, listas, figuras) até tópicos avançados (TikZ, BibTeX,
+     matemática). Em inglês mas muito clara e com exemplos práticos.}
+
+\recurso{LaTeX Wikibook — Referência Completa}
+    {https://en.wikibooks.org/wiki/LaTeX}
+    {Referência completa e gratuita. Útil para procurar comandos
+     específicos, pacotes e exemplos detalhados de qualquer funcionalidade.}
+
+\recurso{CTAN — Documentação Oficial de Pacotes}
+    {https://ctan.org}
+    {Repositório oficial de todos os pacotes LaTeX. Procura aqui a
+     documentação de qualquer pacote (ex: fancyhdr, tikz, minted, amsmath).}
+
+\recurso{Detexify — Encontra o Símbolo Matemático}
+    {https://detexify.kirelabs.org}
+    {Desenha o símbolo que procuras e o site mostra o comando LaTeX
+     correspondente. Muito útil para equações e símbolos especiais.}
+
+
+% -------------------------------------------------------------------
+\section{Comunidade e Ajuda}
+% -------------------------------------------------------------------
+
+\recurso{TeX Stack Exchange — Fórum de Perguntas e Respostas}
+    {https://tex.stackexchange.com}
+    {O melhor sítio para tirar dúvidas. Quase tudo o que precisas já foi
+     perguntado e respondido. Pesquisa antes de colocar uma nova questão.}
+
+\recurso{Reddit r/LaTeX}
+    {https://www.reddit.com/r/LaTeX}
+    {Comunidade ativa onde partilham exemplos, pedem ajuda e mostram
+     resultados. Boa fonte de inspiração para formatação e design.}
+
+
+% -------------------------------------------------------------------
+\section{Templates e Código no GitHub}
+% -------------------------------------------------------------------
+
+\recurso{LaTeX Templates — Coleção de Templates Gratuitos}
+    {https://www.latextemplates.com}
+    {Grande coleção organizada por categoria: relatórios, teses, cartas,
+     apresentações, posters científicos, e muito mais.}
+
+\recurso{GitHub — Templates LaTeX (pesquisa)}
+    {https://github.com/topics/latex-template}
+    {Repositórios públicos com templates LaTeX. Podes fazer download ou
+     fork de qualquer um. Pesquisa também por "latex thesis", "latex
+     report" ou "latex ISEL".}
+
+\recurso{Awesome LaTeX — Lista Curada de Recursos}
+    {https://github.com/egeerardyn/awesome-LaTeX}
+    {Lista mantida pela comunidade com os melhores editores, pacotes,
+     ferramentas e recursos do ecossistema LaTeX.}
+
+
+% -------------------------------------------------------------------
+\section{Ferramentas Úteis}
+% -------------------------------------------------------------------
+
+\recurso{Tables Generator — Cria Tabelas Visualmente}
+    {https://www.tablesgenerator.com}
+    {Cria tabelas como no Excel e gera o código LaTeX automaticamente.
+     Suporta vários estilos incluindo booktabs (o mais profissional).}
+
+\recurso{Mathcha — Editor Visual de Equações}
+    {https://www.mathcha.io}
+    {Editor visual para equações matemáticas complexas com exportação
+     direta para código LaTeX. Alternativa ao Detexify para fórmulas longas.}
+
+\recurso{doi2bib — Gera Referências BibTeX Automaticamente}
+    {https://www.doi2bib.org}
+    {Cola um DOI ou ID arXiv e gera a entrada BibTeX correta para
+     a tua lista de referências. Poupa imenso tempo.}
+
+\recurso{PDF24 / iLovePDF — Converter e Editar Imagens}
+    {https://www.pdf24.org}
+    {Converte figuras, screenshots e diagramas para formatos compatíveis
+     com LaTeX (PNG, JPG, PDF).}
+
+\newpage
+
+% -------------------------------------------------------------------
+\section{Referência Rápida — Comandos Essenciais}
+% -------------------------------------------------------------------
+
+\begin{mdframed}[style=resourcebox]
+\textbf{Formatação de texto}\\[6pt]
+\begin{tabular}{@{}ll@{}}
+\texttt{\textbackslash textbf\{texto\}}    & \textbf{negrito}              \\
+\texttt{\textbackslash textit\{texto\}}    & \textit{itálico}              \\
+\texttt{\textbackslash texttt\{texto\}}    & \texttt{monospace / código}   \\
+\texttt{\textbackslash underline\{texto\}} & \underline{sublinhado}        \\
+\end{tabular}
+\end{mdframed}
+
+\begin{mdframed}[style=resourcebox]
+\textbf{Estrutura do documento}\\[6pt]
+\begin{tabular}{@{}ll@{}}
+\texttt{\textbackslash section\{Título\}}       & Secção numerada           \\
+\texttt{\textbackslash subsection\{Título\}}    & Subsecção numerada        \\
+\texttt{\textbackslash subsubsection\{Título\}} & Subsubsecção numerada     \\
+\texttt{\textbackslash label\{fig:x\}}          & Define uma etiqueta       \\
+\texttt{\textbackslash ref\{fig:x\}}            & Referencia uma etiqueta   \\
+\end{tabular}
+\end{mdframed}
+
+\begin{mdframed}[style=resourcebox]
+\textbf{Espaçamento e páginas}\\[6pt]
+\begin{tabular}{@{}ll@{}}
+\texttt{\textbackslash newpage}         & Força nova página               \\
+\texttt{\textbackslash clearpage}       & Nova página + flush de figuras  \\
+\texttt{\textbackslash vspace\{1cm\}}   & Espaço vertical                 \\
+\texttt{\textbackslash hspace\{1cm\}}   & Espaço horizontal               \\
+\texttt{\% comentário}                  & Linha ignorada pelo compilador  \\
+\end{tabular}
+\end{mdframed}
+
+\begin{mdframed}[style=resourcebox]
+\textbf{Atalhos no Overleaf}\\[6pt]
+\begin{tabular}{@{}ll@{}}
+\texttt{Ctrl + Enter} & Compilar                       \\
+\texttt{Ctrl + /}     & Comentar / descomentar linha   \\
+\texttt{Ctrl + Z}     & Desfazer                       \\
+\texttt{Ctrl + F}     & Pesquisar no código            \\
+\texttt{Ctrl + G}     & Ir para linha                  \\
+\end{tabular}
+\end{mdframed}
+
+\vspace{0.8cm}
+\begin{center}
+    \small\textcolor{gray}{
+        Dúvidas? Pesquisa primeiro em\
+        \href{https://tex.stackexchange.com}{\textcolor{linkblue}{tex.stackexchange.com}}
+        — é muito provável que a tua pergunta já tenha resposta.
+    }
+\end{center}
+
+\end{document}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  SNIPPETS — copia e cola onde precisares
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% -- FIGURA --------------------------------------------------------
+%\begin{figure}[h]
+%    \centering
+%    \includegraphics[width=0.8\textwidth]{images/nome.png}
+%    \caption{Descrição da figura.}
+%    \label{fig:nome}
+%\end{figure}
+%
+% -- TABELA --------------------------------------------------------
+%\begin{table}[h]
+%    \centering
+%    \begin{tabular}{|l|c|r|}
+%        \hline
+%        \textbf{Coluna A} & \textbf{Coluna B} & \textbf{Coluna C} \\ \hline
+%        Valor 1           & Valor 2           & Valor 3           \\ \hline
+%    \end{tabular}
+%    \caption{Descrição da tabela.}
+%    \label{tab:nome}
+%\end{table}
+%
+% -- LISTA COM PONTOS ----------------------------------------------
+%\begin{itemize}
+%    \item Primeiro item.
+%    \item Segundo item.
+%\end{itemize}
+%
+% -- LISTA NUMERADA ------------------------------------------------
+%\begin{enumerate}
+%    \item Primeiro item.
+%    \item Segundo item.
+%\end{enumerate}
+%
+% -- EQUAÇÃO -------------------------------------------------------
+%\begin{equation}
+%    f(x) = ax^2 + bx + c
+%    \label{eq:nome}
+%\end{equation}
+%
+% -- REFERÊNCIA A FIGURA / TABELA / EQUAÇÃO ------------------------
+%    Ver Figura~\ref{fig:nome}
+%    Ver Tabela~\ref{tab:nome}
+%    Ver Equação~\eqref{eq:nome}
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
