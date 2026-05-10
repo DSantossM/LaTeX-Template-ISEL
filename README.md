@@ -14,7 +14,7 @@ Para começares a fazer relatórios encontras as instruções e guias em baixo p
 
 ### 1. Abre no Overleaf ou no Prism
 
-> Não precisas de instalar nada — compila diretamente no browser. No entanto tens opções com o  `TexStudio` que te permite trabalhar diretamenta na tua máquina.
+> Não precisas de instalar nada — compila diretamente no browser. No entanto tens opções do  `TexStudio` que te permite trabalhar diretamenta na tua máquina.
 
 1. Faz download do ficheiro `.tex` e das imagens da pasta `/images`
 2. Acede a [overleaf.com](https://www.overleaf.com) ou ao [prism.openai.com](https://prism.openai.com/) e cria uma conta gratuita
