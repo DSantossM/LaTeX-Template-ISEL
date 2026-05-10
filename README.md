@@ -30,7 +30,7 @@ No topo do ficheiro `.tex` encontras o bloco de variáveis — é o único síti
 \newcommand{\relAnoLetivo}{20XX / 20XX Verão/Inverno}
 \newcommand{\relTitulo}{Título do Relatório}
 \newcommand{\relSubtitulo}{Subtítulo do Relatório}
-\newcommand{\relLicenciatura}{Licenciatura em ...}
+\newcommand{\relLicenciatura}{Licenciatura/Mestrado em ...}
 \newcommand{\relAlunoA}{Aluno n.º XXXXX Nome Completo}
 \newcommand{\relAlunoB}{Aluno n.º XXXXX Nome Completo}
 \newcommand{\relDocente}{Nome do Docente}
@@ -46,7 +46,8 @@ template-latex-isel
  ┣ guia_recursos_latex.tex    ← guia de recursos em LaTeX (opcional)
  ┣ README.md                  ← este ficheiro
  ┗ images/
-    ┣ logo-isel.png           ← logo do ISEL (substitui se necessário)
+    ┣ logo-isel.png           ← logo do ISEL (Aconselhado a não substituir)
+	┣ newsmallogo.png           ← logo mini do ISEL (Aconselhado a não substituir)     
     ┗ sampleimage.jpg         ← imagem de exemplo (substitui pelas tuas)
 ```
 
