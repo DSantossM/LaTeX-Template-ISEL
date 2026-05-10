@@ -12,7 +12,7 @@ Basta preencher as variáveis no topo do ficheiro e substituir o conteúdo place
 > Não precisas de instalar nada — compila diretamente no browser.
 
 1. Faz download do ficheiro `.tex` e das imagens da pasta `/images`
-2. Acede a [overleaf.com](https://www.overleaf.com) e cria uma conta gratuita
+2. Acede a [overleaf.com](https://www.overleaf.com) ou ao [prism.openai.com](https://prism.openai.com/) e cria uma conta gratuita
 3. Clica em **New Project → Upload Project** e faz upload do ficheiro
 4. Compila com **Ctrl + Enter** (duas vezes para o índice ficar correto)
 
