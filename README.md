@@ -5,11 +5,11 @@ Basta preencher as variáveis no topo do ficheiro e substituir o conteúdo place
 
 ---
 
-## Começar Rapidamente
+## Como Começar:
 
-### 1. Abre no Overleaf (recomendado)
+### 1. Abre no Overleaf ou no Prism
 
-> Não precisas de instalar nada — compila diretamente no browser.
+> Não precisas de instalar nada — compila diretamente no browser. No entanto tens opções com o  `TexStudio` que te permite trabalhar diretamenta na tua máquina.
 
 1. Faz download do ficheiro `.tex` e das imagens da pasta `/images`
 2. Acede a [overleaf.com](https://www.overleaf.com) ou ao [prism.openai.com](https://prism.openai.com/) e cria uma conta gratuita
@@ -36,7 +36,7 @@ No topo do ficheiro `.tex` encontras o bloco de variáveis — é o único síti
 ## Estrutura do Repositório
 
 ```
-📦 template-latex-isel
+template-latex-isel
  ┣ template_relatorio.tex     ← ficheiro principal do template
  ┣ guia_recursos_latex.tex    ← guia de recursos em LaTeX (opcional)
  ┣ README.md                  ← este ficheiro
