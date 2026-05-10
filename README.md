@@ -1,5 +1,7 @@
 # Template LaTeX — Relatório de Trabalhos (ISEL)
 
+![Imagem LaTeX](images\LaTeX_project_logo.png)
+
 > [!NOTE]  
 > **Aviso:** Este projeto não é um modelo oficial fornecido pelo Instituto Superior de Engenharia de Lisboa (ISEL). É um projeto desenvolvido de forma independente, com o intuito de facilitar a escrita de relatórios em LaTeX.
 
