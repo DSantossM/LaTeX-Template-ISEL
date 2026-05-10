@@ -194,4 +194,4 @@ Pesquisa primeiro em [tex.stackexchange.com](https://tex.stackexchange.com) — 
 
 ---
 
-*Template criado por alunos do ISEL — Licenciatura em Engenharia Informática e de Computadores.*
+*Template criado por alunos do ISEL*
