@@ -1,6 +1,7 @@
 # Template LaTeX — Relatório de Trabalhos (ISEL)
 
 Viva! Neste repositório encontras um template genérico em LaTeX para relatórios de trabalhos feitos no ISEL, compatível com qualquer cadeira.
+Este template pode ser alterado para qualquer circustância necessária, e pode sofrer alterações.
 <!-- Basta preencher as variáveis no topo do ficheiro e substituir o conteúdo placeholder pelo teu -->
 Para começares a fazer relatórios encontras as instruções e guias em baixo para conseguires trabalhar com a ferramenta LaTeX.
 
