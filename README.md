@@ -139,6 +139,7 @@ Ver Equação~\eqref{eq:nome}
 |---------|-----------|
 | [Overleaf](https://www.overleaf.com) | Editor LaTeX online, colaborativo e gratuito — **começa aqui** |
 | [Overleaf Templates](https://www.overleaf.com/latex/templates) | Galeria de centenas de templates prontos |
+| [Prism - OpenAI](https://www.prism.openai.com) | Editor LaTeX online, colaborativo e gratuito disponibilizado pela OpenAI — **Podes começar aqui também** |
 
 ### Documentação
 | Recurso | Descrição |
