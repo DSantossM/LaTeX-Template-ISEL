@@ -142,14 +142,14 @@ Ver Equação~\eqref{eq:nome}
 ### Editores Online
 | Recurso | Descrição |
 |---------|-----------|
-| [Overleaf](https://www.overleaf.com) | Editor LaTeX online, colaborativo e gratuito — **começa aqui** |
+| [Overleaf](https://www.overleaf.com) | Editor LaTeX online, colaborativo e gratuito — **Opção Principal** |
 | [Overleaf Templates](https://www.overleaf.com/latex/templates) | Galeria de centenas de templates prontos |
-| [Prism - OpenAI](https://www.prism.openai.com) | Editor LaTeX online, colaborativo e gratuito disponibilizado pela OpenAI — **Podes começar aqui também** |
+| [Prism - OpenAI](https://www.prism.openai.com) | Editor LaTeX online, colaborativo e gratuito disponibilizado pela OpenAI — **Opção Secundária - Sem Limites de Compilação** |
 
 ### Documentação
 | Recurso | Descrição |
 |---------|-----------|
-| [Overleaf Learn](https://www.overleaf.com/learn) | Tutoriais do básico ao avançado — recomendado para iniciantes |
+| [Overleaf Learn](https://www.overleaf.com/learn) | Tutoriais do básico ao avançado |
 | [LaTeX Wikibook](https://en.wikibooks.org/wiki/LaTeX) | Referência completa e gratuita |
 | [CTAN](https://ctan.org) | Documentação oficial de todos os pacotes LaTeX |
 | [Detexify](https://detexify.kirelabs.org) | Desenha um símbolo e obtém o comando LaTeX |
@@ -195,4 +195,4 @@ Pesquisa primeiro em [tex.stackexchange.com](https://tex.stackexchange.com) — 
 
 ---
 
-*Template criado por alunos do ISEL*
+<!-- *Template criado por alunos do ISEL* -->
