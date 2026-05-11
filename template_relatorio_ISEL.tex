@@ -52,7 +52,7 @@
 \usepackage[T1]{fontenc}
 
 % --- Página ---
-\usepackage{geometry}
+\usepackage[a4paper, left=2.5cm, right=2.5cm, top=3cm, bottom=2.5cm, headheight=50pt]{geometry}
 \geometry{
     a4paper,
     top=35mm,
@@ -73,6 +73,7 @@
 \usepackage{setspace}
 \onehalfspacing
 \usepackage{microtype}
+\usepackage{lmodern}
 
 % --- Matemática ---
 \usepackage{amsmath}
@@ -107,7 +108,6 @@
 % --- Numeração de secções com ponto (ex: "1.") ---
 \usepackage{titlesec}
 \titlelabel{\thetitle.\quad}
-
 
 % ===================================================================
 % [B]  CABEÇALHO E RODAPÉ
@@ -214,7 +214,7 @@ eget, arcu.
     \label{fig:imagem1}
 \end{figure}
 
-\clearpage
+%\clearpage
 
 % -------------------------------------------------------------------
 \section{Secção 2 — Título}
@@ -348,13 +348,7 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula 
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
 Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.
 
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=0.4\textwidth]{images/sampleimage.jpg}
-    \caption{Descrição da imagem.}
-    \label{fig:imagem6}
-\end{figure}
-
+\clearpage
 % - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 \subsection{Subsecção 4.4 — Avaliação Experimental}
 \label{sec:experimental}
@@ -369,15 +363,8 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula 
     \label{fig:tabela}
 \end{figure}
 
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=0.95\textwidth]{images/sampleimage.jpg}
-    \caption{Gráfico comparativo.}
-    \label{fig:grafico}
-\end{figure}
-
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-
+\clearpage
 % - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 \subsection{Subsecção 4.5 — Conclusões}
 \label{sec:conclusoes}
@@ -392,7 +379,7 @@ ridiculus mus.
 % [F]  REFERÊNCIAS
 % ===================================================================
 \newpage
-\section*{Referências}
+%\section*{Referências}
 \addcontentsline{toc}{section}{\protect\numberline{}Referências}
 
 \begin{thebibliography}{9}
