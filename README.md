@@ -127,7 +127,7 @@ Ver Tabela~\ref{tab:nome}
 Ver Equação~\eqref{eq:nome}
 ```
 -->
-Podem ser vistos no fim do arquivo template_relatorio_ISEL.tex!!
+Podem ser vistos no fim do arquivo *template_relatorio_ISEL.tex* !!
 
 <!-- ### Comandos de formatação
 ```latex
