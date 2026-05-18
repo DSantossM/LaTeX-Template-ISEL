@@ -72,7 +72,7 @@ template-latex-isel
 
 ## Snippets Úteis
 
-### Figura
+<!-- ### Figura
 ```latex
 \begin{figure}[h]
     \centering
@@ -126,8 +126,10 @@ Ver Figura~\ref{fig:nome}
 Ver Tabela~\ref{tab:nome}
 Ver Equação~\eqref{eq:nome}
 ```
+-->
+Podem ser vistos no fim do arquivo template_relatorio_ISEL.tex!!
 
-### Comandos de formatação
+<!-- ### Comandos de formatação
 ```latex
 \textbf{negrito}        % negrito
 \textit{itálico}        % itálico
@@ -136,7 +138,7 @@ Ver Equação~\eqref{eq:nome}
 \newpage                % nova página
 \clearpage              % nova página + flush de figuras
 ```
-
+-->
 ---
 
 ## Recursos para Aprender LaTeX
@@ -178,7 +180,7 @@ Ver Equação~\eqref{eq:nome}
 | [PDF24](https://www.pdf24.org) | Converter e editar imagens para incluir no LaTeX |
 
 ---
-
+<!--
 ## ⌨️ Atalhos no Overleaf
 
 | Atalho | Ação |
@@ -190,6 +192,7 @@ Ver Equação~\eqref{eq:nome}
 | `Ctrl + G` | Ir para linha |
 
 ---
+-->
 
 ## Dúvidas
 
